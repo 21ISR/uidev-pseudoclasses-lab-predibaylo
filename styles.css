@@ -36,6 +36,7 @@ input:disabled {
 
 input[type="text"]:focus {
     border:2px solid #2980b9;
+    outline:none;
 }
 
 a {
@@ -49,4 +50,9 @@ input[type="checkbox"]:checked+label{
 a:visited {
     color:green;
 }
-
+li:nth-child(odd) {
+    background-color:darkviolet;
+}
+li:nth-child(even) {
+    background-color: blue;
+}
